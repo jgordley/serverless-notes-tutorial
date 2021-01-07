@@ -5,7 +5,7 @@ import DynamoDBProfileStack from "./DynamoDBProfileStack";
 
 // Add stacks
 export default function main(app) {
-  new DynamoDBStack(app, "notes");
+  new DynamoDBStack(app, "dynamodb");
   new DynamoDBProfileStack(app, "profiles");
 
   const s3 = new S3Stack(app, "s3");
