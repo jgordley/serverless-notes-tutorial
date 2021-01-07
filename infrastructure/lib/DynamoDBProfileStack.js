@@ -8,7 +8,7 @@ export default class DynamoDBProfileStack extends sst.Stack {
 
     const app = this.node.root;
 
-    const table = new dynamodb.Table(this, "Table", {
+    const table = new dynamodb.Table(this, "profile", {
       billingMode: dynamodb.BillingMode.PAY_PER_REQUEST, // Use on-demand billing mode
       partitionKey: { name: "userId", type: dynamodb.AttributeType.STRING }
     });
