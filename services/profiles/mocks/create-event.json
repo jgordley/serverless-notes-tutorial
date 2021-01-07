@@ -1,0 +1,8 @@
+{
+    "body": "{\"actualName\":\"Buster Scruggs\",\"university\":\"Misanthrope College\",\"field\":\"Sabbath Singin\",\"createdAt\":\"1609986557897\"}",
+    "requestContext": {
+      "identity": {
+        "cognitoIdentityId": "USER-SUB-1234"
+      }
+    }
+  }

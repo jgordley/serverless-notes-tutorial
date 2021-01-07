@@ -1,0 +1,8 @@
+{
+  "body": "{\"actualName\":\"Buster updated Scruggs\",\"university\":\"Misanthrope updated College\",\"field\":\"Sabbath updated Singin\"}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}
