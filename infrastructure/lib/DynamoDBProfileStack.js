@@ -14,13 +14,13 @@ export default class DynamoDBProfileStack extends sst.Stack {
     });
 
     // Output values
-    new CfnOutput(this, "TableName", {
+    new CfnOutput(this, "ProfilesTableName", {
       value: table.tableName,
-      exportName: app.logicalPrefixedName("TableName"),
+      exportName: app.logicalPrefixedName("ProfilesTableName"),
     });
-    new CfnOutput(this, "TableArn", {
+    new CfnOutput(this, "ProfilesTableArn", {
       value: table.tableArn,
-      exportName: app.logicalPrefixedName("TableArn"),
+      exportName: app.logicalPrefixedName("ProfilesTableArn"),
     });
   }
 }
