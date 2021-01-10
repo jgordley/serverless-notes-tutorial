@@ -1,0 +1,8 @@
+{
+    "body": "{\"companyName\":\"Scruggs LLC\",\"companyPriority\":3, \"recruitingStart\": \"Today\", \"recruitingStart\": \"Yesterday\", \"recruitingEnd\": \"Tomorrow\", \"companyWebsite\": \"https://www.rottentomatoes.com/m/the_ballad_of_buster_scruggs\", \"companyDescription\": \"Great company run by Buster Scruggs (ceo) and his horse, Dan\", \"companyLastContactDate\": \"Today\"}",
+    "requestContext": {
+      "identity": {
+        "cognitoIdentityId": "USER-SUB-1234"
+      }
+    }
+  }
